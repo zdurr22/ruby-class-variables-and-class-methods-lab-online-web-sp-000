@@ -22,5 +22,5 @@ class Song
 
   end
 
-binding.binding.pry
+binding.pry
 end
