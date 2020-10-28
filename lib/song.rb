@@ -3,7 +3,9 @@ class Song
   attr_accessor :name, :artist, :genre
 
   @@count = 0
-  ARTISTS = []
+  @@artists = []
+
+
 
   def self.count
     @@count
@@ -16,7 +18,7 @@ class Song
 
     @@count += 1
 
-    ARTISTS << artist unless ARTISTS.include?(artist)
+    @@artists << artist unless @@artists.include?(artist)
 
   end
 
