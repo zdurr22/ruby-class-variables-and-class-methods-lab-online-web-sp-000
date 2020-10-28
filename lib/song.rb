@@ -31,5 +31,4 @@ class Song
     @@genres << genre unless @@genres.include?(genre)
   end
 
-binding.pry
 end
